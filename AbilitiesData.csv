@@ -1,0 +1,53 @@
+Skill Name,Naval,Agricultural,Civil,Electrical,Mechanical
+Dynamic Flexibility,1.0,1.0,1.0,1.0,1.0
+Explosive Strength,1.62,1.38,1.0,1.0,1.0
+Speed of Limb Movement,1.75,1.0,1.0,1.0,1.12
+Night Vision,1.75,1.62,1.0,1.0,1.0
+Rate Control,1.88,1.62,1.0,1.12,1.38
+Peripheral Vision,1.88,1.62,1.12,1.0,1.0
+Spatial Orientation,2.0,1.62,2.0,1.12,1.38
+Response Orientation,2.0,1.62,1.0,1.12,1.0
+Wrist-Finger Speed,2.0,1.25,1.0,1.38,1.5
+Dynamic Strength,2.0,1.38,1.0,1.0,1.0
+Stamina,2.0,1.5,1.0,1.0,1.0
+Extent Flexibility,2.0,1.38,1.0,1.25,1.0
+Gross Body Coordination,2.0,1.38,1.0,1.0,1.0
+Gross Body Equilibrium,2.0,1.38,1.0,1.0,1.0
+Glare Sensitivity,2.0,1.5,1.12,1.0,1.0
+Sound Localization,2.0,1.62,1.12,1.0,1.0
+Static Strength,2.12,1.5,1.0,1.0,1.0
+Manual Dexterity,2.25,1.62,1.12,2.0,1.62
+Multilimb Coordination,2.25,2.0,1.88,1.12,1.12
+Reaction Time,2.25,2.0,1.0,1.12,2.12
+Control Precision,2.38,2.12,1.88,2.0,1.75
+Trunk Strength,2.38,1.5,1.12,1.38,1.5
+Hearing Sensitivity,2.5,2.62,2.75,2.12,2.5
+Finger Dexterity,2.62,2.5,2.62,2.5,2.62
+Depth Perception,2.62,2.5,2.62,2.0,2.0
+Speed of Closure,2.75,2.38,3.0,2.12,2.88
+Time Sharing,2.75,3.0,2.88,2.88,2.75
+Arm-Hand Steadiness,2.75,1.75,1.12,2.25,2.0
+Auditory Attention,2.75,2.88,2.88,2.12,2.5
+Memorization,2.88,2.25,2.88,2.62,2.62
+Visual Color Discrimination,2.88,2.88,2.75,2.88,2.75
+Flexibility of Closure,3.12,3.25,3.75,3.0,3.12
+Perceptual Speed,3.12,2.88,3.5,2.88,3.0
+Selective Attention,3.12,3.12,3.0,3.0,2.88
+Fluency of Ideas,3.25,3.38,3.5,3.38,3.38
+Originality,3.38,3.38,3.38,3.25,3.25
+Number Facility,3.38,3.38,3.75,3.38,3.62
+Far Vision,3.5,3.0,3.5,2.88,2.88
+Speech Clarity,3.5,3.62,3.5,3.25,3.25
+Category Flexibility,3.62,3.88,3.88,3.88,3.38
+Mathematical Reasoning,3.62,3.38,3.88,3.38,3.88
+Visualization,3.62,3.75,3.75,3.12,3.5
+Speech Recognition,3.75,3.62,3.5,3.5,3.25
+Oral Comprehension,3.88,4.12,4.0,4.0,4.0
+Oral Expression,3.88,4.0,4.0,3.75,3.5
+Written Expression,3.88,3.88,3.88,3.88,3.25
+Written Comprehension,4.0,4.12,3.88,4.0,4.0
+Problem Sensitivity,4.0,4.0,4.0,4.0,3.88
+Deductive Reasoning,4.0,4.0,4.0,4.0,3.88
+Inductive Reasoning,4.0,4.12,4.0,3.75,3.88
+Information Ordering,4.0,3.75,4.0,3.88,4.0
+Near Vision,4.0,3.88,3.75,3.75,3.75
