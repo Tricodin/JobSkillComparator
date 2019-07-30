@@ -24,6 +24,14 @@ for ExcelFileName in ['Skills.xlsx']:
                "Registered Nurses", "Pharmacists", "Aerospace Engineers", "Materials Scientists", "Database Administrators",
                "Locomotive Engineers", "Interviewers, Except Eligibility and Loan", "Accountants", "Financial Analysts", "Graphic Designers"]
 
+    skilList = ["Reading Comprehension", "Active Listening", "Writing", "Speaking", "Mathematics", "Science", "Critical Thinking",
+                "Active Learning", "Learning Strategies", "Monitoring", "Social Perceptiveness", "Coordination", "Persuasion",
+                "Negotiation", "Instructing", "Service Orientation", "Complex Problem Solving", "Operations Analysis",
+                "Technology Design", "Equipment Selection", "Installation", "Programming", "Operation Monitoring", "Operation and Control",
+                "Equipment Maintenance", "Troubleshooting", "Repairing", "Quality Control Analysis", "Judgment and Decision Making",
+                "Systems Analysis", "Systems Evaluation", "Time Management", "Management of Financial Resources", "Management of Material Resources",
+                "Management of Personnel Resources"]
+
     computerizationProbability = np.array([0.01, 0.49, 0.1, 0.019, 0.011,
                                   0.0077, 0.0077, 0.042, 0.035, 0.047,
                                   0.07, 0.22, 0.25, 0.43, 0.44,
@@ -49,7 +57,7 @@ for ExcelFileName in ['Skills.xlsx']:
                 skillToAdd = worksheet.cell_value(i, 3)
                 added = False
 
-                if worksheet.cell_value(i, 4) == 'IM':
+                if worksheet.cell_value(i, 4) == 'LV':
                     skilldata.append(worksheet.cell_value(i, 6))
 
         #print skilldata
@@ -57,7 +65,9 @@ for ExcelFileName in ['Skills.xlsx']:
         a = np.append(a, [skilldata], axis = 0)
 
     x = np.linalg.solve(a, computerizationProbability)
-    print x
+
+    for i in range(0, 35):
+        print skilList[i] + ": " + str(x[i])
     exit()
 
     #skills.sort()
